@@ -54,15 +54,16 @@ header {
     text-shadow: 1px 1px 1px white;
     letter-spacing: 2px;
     font-size: 16px;
-    padding-bottom: 50px;
+    padding-bottom: 75px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 /* main */
 .maindiv1 {
-    width: 100%;
-    max-width: 1000px;
-    height: 400px;
+    width: 500px;
+    height: 300px;
+    max-width: 60%;
+    max-height: 400px;
     margin: 50px 120px;
     display: flex;
     justify-content: center;
@@ -73,13 +74,14 @@ header {
     border-radius: 10px;
     position: relative;
     overflow: hidden;
+    margin: auto;
 }
 #icon2 {
     display: flex;
     justify-content: right;
     right: 0;
     align-items: center;
-    font-size: 1400%;
+    font-size: 1500%;
     margin: auto;
     color:  rgba(135, 129, 218, 0.989);
     position: absolute;
@@ -94,7 +96,7 @@ header {
 
     border: none;
     border-radius: 10px;
-    width: 50%;
+    width: 260px;
     height: 52%;
     z-index: 2;
     color: rgba(52, 43, 171, 0.989);
@@ -109,8 +111,8 @@ header {
     justify-content: center;
     align-items: center;
 
-    margin-top: 5%;
-    font-size: 85%;
+    margin-top: 5px;
+    font-size: 18px;
     line-height: 25px;
     letter-spacing: 1px;
 }
@@ -153,7 +155,7 @@ header {
     font-size: 100%;
     font-weight: 1000;
     box-shadow: 1px 1px 10px  rgba(252, 252, 254, 0.989);
-    margin: 10% auto 0;
+    margin: 12px auto 0;
 }
 #btn1:hover {
     cursor: pointer;
@@ -168,7 +170,7 @@ header {
     display: flex;
     justify-content: center;
     margin-top: 7%;
-    font-size: 60%;
+    font-size: 10px;
 }
 
 /* div2 */
@@ -176,40 +178,40 @@ header {
     border: none;
     background-color: rgba(103, 96, 202, 0.989);
     border-radius: 50px;
-    width: 28%;
-    height: 30%;
+    width: 200px;
+    height: 150px;
     z-index: 4;
     color: white;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-200%, -30%);
+    transform: translate(-150%, 80%);
     box-shadow: inset 0px 0px 10px white;
 }
 #label2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20%;
+    margin-top: 20px;
     font-size: 16px;
 }
 #input2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 10%;
+    margin-top: 15px;
     font-size: 125%;
 }
 #checkIcon {
     display: none;
     font-size: 30px;
     position: absolute;
-    margin-top: 10px;
-    margin-left: 50px;
+    margin-top: 15px;
+    margin-left: 80px;
     border: none;
     border-radius: 50%;
     background-color: rgb(1, 163, 1);
-    padding: 5px;
+    padding: 6px;
 }
 
 /* footer */
@@ -225,44 +227,48 @@ address {
 }
 
 @media only screen and (max-width: 768px) {
-    .maindiv1 {
-        width: 70%;
-        margin: 20px auto;
-        height: 300px;
+    header {
+        font-size: 14px;
     }
     .div1 {
         width: 50%;
-        height: 50%;
+        height: 45%;
     }
+    #label1 {
+        font-size: 14px;
+        margin-top: 0px;
+    }
+    #input1 {
+        width: 60px;
+        height: 20px;
+        margin-left: 40px;
+    }
+    #btn1 {
+        width: 50px;
+        height: 30px;
+        font-size: 8px;
+        margin-left: 45px;
+        margin-top: 15px;
+    }
+    #note1 {
+        margin-top: 15px;
+        font-size: 7px;
+    }
+    #icon2 {
+        font-size: 1400%;
+    }
+    .maindiv1 {
+        width: 350px;
+        max-width: 350px;
+        margin: 20px auto;
+        height: 300px;
+    }
+    
     .div2 {
+        width: 150px;
+        height: 120px;
         left: 50px;
         top: 330px;
-        transform: translate(-10%, 10%);
-    }
-}
-
-@media only screen and (min-width: 1200px) {
-    header {
-        font-size: 22px;
-    }
-    .maindiv1 {
-        width: 30%;
-        margin: 20px auto;
-        height: 300px;
-    }
-    .div1 {
-        width: 50%;
-        height: 60%;
-    }
-    .div2 {
-        left: 50px;
-        width: 12%;
-        top: 370px;
-        transform: translate(230%, 10%);
-    }
-    address {
-        position: fixed;
-        right: 0;
-        bottom: 0;
+        transform: translate(-30%, 45%);
     }
 }
