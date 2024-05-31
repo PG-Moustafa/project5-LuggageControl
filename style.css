@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+
+}
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('photos/image1 (2).jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.25;
+    z-index: -1;
+}
+#icon-background {
+    position: absolute;
+    color: rgba(255, 255, 255, 0);
+    font-size: 20px;
+    z-index: -1;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    padding-left: 10px;
+}
+.icon {
+    font-family: "Font Awesome 6 Pro";
+    font-weight: 900;
+    color: rgba(255, 0, 0, 0.4);
+    font-size: 50px;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* header */
+header {
+    padding-top: 40px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    color: rgba(135, 129, 218, 0.989);
+    text-shadow: 1px 1px 1px white;
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+/* main */
+main {
+}
+
+.maindiv1 {
+    background-color: rgb(217, 210, 210);
+    background-size: cover;
+    width: 550px;
+    height: 400px;
+    margin: 50px 120px;
+    box-shadow: 2px 2px 50px rgba(135, 129, 218, 0.989);
+    border: 3px dashed rgba(135, 129, 218, 0.989);
+    border-radius: 10px;
+
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#icon2 {
+    display: flex;
+    justify-content: right;
+    right: 0;
+    align-items: center;
+    font-size: 350px;
+    margin: auto;
+    color:  rgba(135, 129, 218, 0.989);
+    position: absolute;
+    z-index: 1;
+}
+.div1 {
+    border: none;
+    border-radius: 10px;
+    width: 240px;
+    height: 205px;
+    z-index: 2;
+    color: rgba(52, 43, 171, 0.989);
+    position: absolute;
+    left: 20px;
+    top: 15px;
+    box-shadow: inset 0px 0px 10px rgba(237, 237, 243, 0.989);
+    background: linear-gradient(to right, rgba(148, 144, 213, 0.989), rgba(111, 104, 205, 0.989));
+}
+#luggage-form {
+    margin-top: 20px;
+    padding-left: 25px;
+}
+#label1 {
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+#input1 {
+    margin-top: 20px;
+    margin-left: 43px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    font-size: 20px;
+    color: rgba(135, 129, 218, 0.989) ;
+    text-align: center;
+}
+#input1:hover {
+    background-color:  rgba(135, 129, 218, 0.989);
+    cursor: pointer;
+    color: white;
+    box-shadow: 2px 2px 20px white;
+}
+#input1:active {
+    background-color: rgba(95, 86, 219, 0.989);
+    color: white;
+}
+#btn1 {
+    margin-top: 20px;
+    margin-left: 55px;
+    width: 75px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    color:  rgba(135, 129, 218, 0.989);
+    font-size: 15px;
+    font-weight: 1000;
+    box-shadow: 1px 1px 10px  rgba(252, 252, 254, 0.989);
+}
+#btn1:hover {
+    cursor: pointer;
+    background-color:  rgba(135, 129, 218, 0.989);
+    color: white;
+    box-shadow: 2px 2px 20px white;
+}
+#btn1:active {
+    background-color:  rgba(95, 86, 219, 0.989);
+}
+#note1 {
+    margin-top: 17px;
+    font-size: 13px;
+    padding-left: 15px;
+}
+
+.div2 {
+    border: none;
+    background-color: rgba(103, 96, 202, 0.989);
+    border-radius: 50px;
+    width: 200px;
+    height: 200px;
+    z-index: 4;
+    color: white;
+    position: absolute;
+    top: 400px;
+    left:70px;
+    box-shadow: inset 0px 0px 10px white;
+}
+#label2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    font-size: 20px;
+}
+#input2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    font-size: 40px;
+}
+#checkIcon {
+    display: none;
+    font-size: 35px;
+    position: absolute;
+    margin: 10px 75px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(1, 163, 1);
+    padding: 8px;
+}
+
+/* footer */
+footer {
+    height: 20px;
+}
+address {
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    color: black;
+}
