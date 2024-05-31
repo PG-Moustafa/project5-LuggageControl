@@ -241,6 +241,28 @@ address {
     }
 }
 
-@media only screen and (max-width: 1025px) {
-
+@media only screen and (min-width: 1200px) {
+    header {
+        font-size: 22px;
+    }
+    .maindiv1 {
+        width: 30%;
+        margin: 20px auto;
+        height: 300px;
+    }
+    .div1 {
+        width: 50%;
+        height: 60%;
+    }
+    .div2 {
+        left: 50px;
+        width: 12%;
+        top: 370px;
+        transform: translate(230%, 10%);
+    }
+    address {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+    }
 }
