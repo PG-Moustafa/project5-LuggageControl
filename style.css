@@ -53,7 +53,7 @@ header {
     color: rgba(135, 129, 218, 0.989);
     text-shadow: 1px 1px 1px white;
     letter-spacing: 2px;
-    font-size: 18px;
+    font-size: 16px;
     padding-bottom: 50px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -79,7 +79,7 @@ header {
     justify-content: right;
     right: 0;
     align-items: center;
-    font-size: 1500%;
+    font-size: 1400%;
     margin: auto;
     color:  rgba(135, 129, 218, 0.989);
     position: absolute;
@@ -99,8 +99,8 @@ header {
     z-index: 2;
     color: rgba(52, 43, 171, 0.989);
     position: absolute;
-    left: 20px;
-    top: 15px;
+    left: 12px;
+    top: 12px;
     box-shadow: inset 0px 0px 10px rgba(237, 237, 243, 0.989);
     background: linear-gradient(to right, rgba(121, 116, 212, 0.989), rgba(98, 91, 204, 0.989));    
 }
@@ -110,7 +110,7 @@ header {
     align-items: center;
 
     margin-top: 5%;
-    font-size: 100%;
+    font-size: 85%;
     line-height: 25px;
     letter-spacing: 1px;
 }
@@ -153,7 +153,7 @@ header {
     font-size: 100%;
     font-weight: 1000;
     box-shadow: 1px 1px 10px  rgba(252, 252, 254, 0.989);
-    margin: 5% auto 0;
+    margin: 10% auto 0;
 }
 #btn1:hover {
     cursor: pointer;
@@ -167,8 +167,8 @@ header {
 #note1 {
     display: flex;
     justify-content: center;
-    margin-top: 5%;
-    font-size: 80%;
+    margin-top: 7%;
+    font-size: 60%;
 }
 
 /* div2 */
@@ -176,36 +176,36 @@ header {
     border: none;
     background-color: rgba(103, 96, 202, 0.989);
     border-radius: 50px;
-    width: 23%;
-    height: 35%;
+    width: 28%;
+    height: 30%;
     z-index: 4;
     color: white;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-200%, 50%);
+    transform: translate(-200%, -30%);
     box-shadow: inset 0px 0px 10px white;
 }
 #label2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 10%;
-    font-size: 20px;
+    margin-top: 20%;
+    font-size: 16px;
 }
 #input2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 5%;
-    font-size: 220%;
+    margin-top: 10%;
+    font-size: 125%;
 }
 #checkIcon {
     display: none;
-    font-size: 35px;
+    font-size: 30px;
     position: absolute;
-    margin-top: 5px;
-    margin-left: 65px;
+    margin-top: 10px;
+    margin-left: 50px;
     border: none;
     border-radius: 50%;
     background-color: rgb(1, 163, 1);
@@ -230,9 +230,17 @@ address {
         margin: 20px auto;
         height: 300px;
     }
+    .div1 {
+        width: 50%;
+        height: 50%;
+    }
     .div2 {
         left: 50px;
         top: 330px;
-        transform: translate(10%, 20%);
+        transform: translate(-10%, 10%);
     }
+}
+
+@media only screen and (max-width: 500px) {
+
 }
