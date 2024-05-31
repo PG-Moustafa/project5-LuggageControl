@@ -3,7 +3,7 @@
     padding: 0;
 }
 body {
-
+    position: relative;
 }
 body::before {
     content: "";
@@ -19,6 +19,7 @@ body::before {
     opacity: 0.25;
     z-index: -1;
 }
+/*
 #icon-background {
     position: absolute;
     color: rgba(255, 255, 255, 0);
@@ -40,6 +41,7 @@ body::before {
     align-items: center;
     justify-content: center;
 }
+*/
 
 /* header */
 header {
@@ -54,26 +56,21 @@ header {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-
 /* main */
-main {
-}
-
 .maindiv1 {
-    background-color: rgb(217, 210, 210);
-    background-size: cover;
-    width: 550px;
+    width: 70%;
     height: 400px;
     margin: 50px 120px;
-    box-shadow: 2px 2px 50px rgba(135, 129, 218, 0.989);
-    border: 3px dashed rgba(135, 129, 218, 0.989);
-    border-radius: 10px;
-
-    position: relative;
-    overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(217, 210, 210);
+    background-size: cover;
+    box-shadow: 2px 2px 50px rgba(135, 129, 218, 0.989);
+    border: 3px dashed rgba(135, 129, 218, 0.989);
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
 }
 #icon2 {
     display: flex;
@@ -204,4 +201,16 @@ address {
     bottom: 10px;
     right: 20px;
     color: black;
+}
+
+@media only screen and (max-width: 768px) {
+    .maindiv1 {
+        width: 70%;
+        margin: 20px auto;
+        height: 300px;
+    }
+    .div2 {
+        left: 50px;
+        top: 330px;
+    }
 }
