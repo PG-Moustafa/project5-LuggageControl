@@ -61,6 +61,7 @@ header {
 /* main */
 .maindiv1 {
     width: 100%;
+    max-width: 1000px;
     height: 400px;
     margin: 50px 120px;
     display: flex;
@@ -180,8 +181,9 @@ header {
     z-index: 4;
     color: white;
     position: absolute;
-    top: 400px;
-    left:100px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-200%, 50%);
     box-shadow: inset 0px 0px 10px white;
 }
 #label2 {
@@ -217,7 +219,7 @@ footer {
 address {
     position: fixed;
     bottom: 10px;
-    right: 20px;
+    right: 0;
     color: black;
     width: 40%;
 }
@@ -231,5 +233,6 @@ address {
     .div2 {
         left: 50px;
         top: 330px;
+        transform: translate(10%, 20%);
     }
 }
